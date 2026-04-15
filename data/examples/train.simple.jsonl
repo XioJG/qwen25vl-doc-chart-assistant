@@ -1,0 +1,3 @@
+{"id":"demo_001","image":"invoice_001.png","task":"structured_extraction","instruction":"请提取图中发票号码、日期和总金额，并以 JSON 输出。","answer":{"invoice_number":"INV-2025-001","date":"2025-03-01","total_amount":"1280.00"}}
+{"id":"demo_002","image":"chart_001.png","task":"chart_qa","instruction":"图中哪一个季度的销售额最高？只回答季度名称。","answer":"Q4"}
+{"id":"demo_003","image":"screenshot_001.png","task":"ui_understanding","instruction":"请概括该界面的核心功能，并列出页面上最明显的三个按钮。","answer":"该页面是一个项目管理界面，主要用于查看任务状态与协作。三个最明显的按钮为：新建任务、筛选、导出。"}

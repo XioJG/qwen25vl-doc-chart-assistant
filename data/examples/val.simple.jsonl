@@ -1,0 +1,2 @@
+{"id":"demo_101","image":"invoice_101.png","task":"structured_extraction","instruction":"请提取图中的订单号、客户名称和应付金额，并以 JSON 输出。","answer":{"order_id":"SO-101","customer_name":"Alice Co.","amount_due":"560.00"}}
+{"id":"demo_102","image":"chart_101.png","task":"chart_qa","instruction":"图中最低的数据点对应哪个月份？只回答月份。","answer":"二月"}

@@ -1,0 +1,106 @@
+# Python bytecode and local build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs, runtime outputs, and experiment trackers
+logs/
+*.log
+outputs/*
+!outputs/.gitkeep
+runs/
+wandb/
+mlruns/
+tensorboard/
+
+# Model checkpoints, weights, and adapter outputs
+checkpoints/
+checkpoint-*/
+models/
+model_cache/
+saved_models/
+pretrained/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.gguf
+*.h5
+*.pb
+
+# Hugging Face / model download caches
+.cache/
+cache/
+hf_cache/
+huggingface/
+.huggingface/
+hub/
+xet/
+
+# Large or private project data
+data/raw/*
+!data/raw/.gitkeep
+data/images/*
+!data/images/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+*.pdf
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.parquet
+*.arrow
+*.npy
+*.npz
+*.hdf5
+*.lmdb
+
+# Local debug and notebook artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Local third-party clones and Codex session files
+transformers/
+third_party/
+.codex

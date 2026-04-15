@@ -1,0 +1,12 @@
+# 请先自行安装与 CUDA 匹配的 PyTorch
+# 示例（Windows / Linux 均需按你的 CUDA 版本调整）：
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+
+accelerate>=0.34.0
+git+https://github.com/huggingface/transformers
+qwen-vl-utils>=0.0.8
+pillow>=10.0.0
+pyyaml>=6.0.1
+tqdm>=4.66.0
+python-dotenv>=1.0.1
+scikit-learn>=1.4.0

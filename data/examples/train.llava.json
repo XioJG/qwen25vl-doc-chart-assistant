@@ -1,0 +1,32 @@
+[
+  {
+    "id": "demo_001",
+    "image": "invoice_001.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>
+请提取图中发票号码、日期和总金额，并以 JSON 输出。"
+      },
+      {
+        "from": "gpt",
+        "value": "{"invoice_number": "INV-2025-001", "date": "2025-03-01", "total_amount": "1280.00"}"
+      }
+    ]
+  },
+  {
+    "id": "demo_002",
+    "image": "chart_001.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>
+图中哪一个季度的销售额最高？只回答季度名称。"
+      },
+      {
+        "from": "gpt",
+        "value": "Q4"
+      }
+    ]
+  }
+]

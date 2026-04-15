@@ -1,0 +1,17 @@
+[
+  {
+    "id": "demo_101",
+    "image": "invoice_101.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>
+请提取图中的订单号、客户名称和应付金额，并以 JSON 输出。"
+      },
+      {
+        "from": "gpt",
+        "value": "{"order_id": "SO-101", "customer_name": "Alice Co.", "amount_due": "560.00"}"
+      }
+    ]
+  }
+]
