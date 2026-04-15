@@ -1,6 +1,6 @@
 # Demo Checklist
 
-面试或公开展示前，建议按这个清单检查。
+运行项目前，建议按这个清单检查。
 
 ## 环境检查
 
@@ -46,9 +46,9 @@ bash scripts/linux/02_run_demo.sh
 - 浏览器能访问 `http://127.0.0.1:7860`。
 - 可以上传脱敏图片。
 - 可以切换任务模板。
-- 能展示模型原始回答和解析出的 JSON。
+- 能看到模型原始回答和解析出的 JSON。
 
-## GitHub 展示检查
+## GitHub 发布检查
 
 上传前确认：
 
@@ -57,9 +57,9 @@ bash scripts/linux/02_run_demo.sh
 - `outputs/` 中的运行结果没有被提交。
 - `.venv/`、`transformers/`、模型权重、缓存目录没有被提交。
 
-## 30 秒讲解顺序
+## 项目检查顺序
 
-1. 先讲 README 顶部：项目是本地 Qwen2.5-VL 多模态文档/图表理解系统。
-2. 再讲项目亮点：本地部署、截图理解、结构化 JSON、CLI + Gradio + 评测。
-3. 然后打开 `docs/architecture.md`：说明推理链路、数据链路和后续微调路线。
-4. 最后展示 `docs/screenshots/` 中的脱敏 Demo 截图。
+1. 先看 README 顶部：项目是本地 Qwen2.5-VL 多模态文档/图表理解系统。
+2. 再看项目亮点：本地部署、截图理解、结构化 JSON、CLI + Gradio + 评测。
+3. 然后打开 `docs/architecture.md`：查看推理链路、数据链路和后续微调路线。
+4. 最后查看 `docs/screenshots/` 中的脱敏 Demo 截图。

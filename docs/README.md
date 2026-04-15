@@ -1,6 +1,6 @@
 # Docs
 
-本目录用于放置公开展示材料，目标是让面试官能快速理解项目的技术路线、Demo 形态和后续迭代计划。
+本目录用于放置项目说明材料，目标是让读者能快速理解项目的技术路线、Demo 形态和后续迭代计划。
 
 ## 目录结构
 
@@ -8,7 +8,7 @@
 docs/
 ├── README.md
 ├── architecture.md           # 推理、数据、评测、后续微调的整体流程说明
-├── demo_checklist.md         # 面试演示前检查清单
+├── demo_checklist.md         # 项目运行前检查清单
 ├── screenshots/
 │   ├── README.md             # 截图类型与命名规范
 │   └── .gitkeep
@@ -16,14 +16,14 @@ docs/
 │   ├── README.md             # 流程图/架构图放置说明
 │   └── .gitkeep
 └── notes/
-    └── README.md             # 后续实验、问题记录、面试讲解草稿
+    └── README.md             # 后续实验、问题记录、排查笔记
 ```
 
 ## 推荐放置内容
 
 - `screenshots/`：脱敏后的 Gradio 页面、CLI 推理输出、结构化 JSON 输出截图。
 - `diagrams/`：项目流程图、推理链路图、数据转换与评测流程图。
-- `notes/`：面试讲解提纲、实验记录、后续 LoRA/QLoRA 计划。
+- `notes/`：实验记录、问题排查、后续 LoRA/QLoRA 计划。
 
 ## 发布边界
 

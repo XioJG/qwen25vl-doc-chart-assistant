@@ -55,7 +55,7 @@ private desensitized dataset
 - 尚未完成 LoRA/QLoRA 微调结果。
 - 尚未报告微调前后指标对比。
 
-## 面试展示重点
+## 项目说明重点
 
 - 这不是远程 API 调用项目，而是围绕本地 Qwen2.5-VL-3B 的多模态推理工程。
 - 项目已覆盖视觉输入、任务 prompt、结构化 JSON 输出、CLI、Demo、批量推理和基础评测。
